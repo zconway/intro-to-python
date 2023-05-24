@@ -164,8 +164,6 @@ clear  # Clears the terminal screen
 
 - UP / DOWN Arrows - Scroll backward and forwards through previous commands you’ve typed in the current session. ​
 
-- F3 - Repeat the previous command​.
-
 - CTRL + C - Abort the current line you’re typing or a command that is currently executing​.
 
 
@@ -181,18 +179,28 @@ clear  # Clears the terminal screen
 
 # Steps
 
-### On Github
+### I. On [Github](https://github.com/)
 
-1. Fork the intro-to-python repo → https://github.com/sergiuHudrea/intro-to-python
+1. Fork the intro-to-python repo → https://github.com/sergiuHudrea/intro-to-python. 
+   - The "Fork" icon will be situated in the top right hand corner.
+   - When creating the new fork, select your account as the "Owner".
+2. Copy the link of your newly forked repository. 
+   - The link should have this format: https://github.com/YOUR_GITHUB_USERNAME/intro-to-python
 
-### On Replit
 
-1. Click on "Create Repl". 
+---
+
+
+### II. On [Replit](https://replit.com/)
+
+1. Click on "Create Repl" in the top right hand corner. 
 2. Select "Import from GitHub" 
 3. Paste link of your newly forked repo into the "GitHub URL" section.
 4. Click on "Import from GitHub".
-4. Check that you have access to the Shell.
-5. Start Section A from exercises_0.md. Make sure you click on "Open preview", so you can see nicely formatted.
+5. When loaded, click on the "Git" icon from the "Tools" section, situated in the bottom left side.
+6. In the newly opened Git window, click on "Connect to GitHub" and follow the steps. Click on "Only selected repositories", select your forked repository, and then click on "Install and Authorize".
+7. Open a Shell window and a second window for displaying the contents of the exercises_0.md file.
+8. Start Section A from exercises_0.md. Make sure you click on "Open preview", so you can see the content nicely formatted.
 
 
 ---
