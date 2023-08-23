@@ -35,12 +35,10 @@ for x in range(players):
 print("LETS START!!!!!")
 winner = None
 
-while not winner:
+while winner == None:
     for current_player in range(players):
 
         x = input("Player " + str(current_player) + ": Roll the dice...")
-        if x == "q":
-            break
         dice_roll = str(random.randint(1, 6))
         scores[current_player] += 1
         print("You rolled a: " + dice_roll)
@@ -64,6 +62,6 @@ while not winner:
                 if sum(beetles[current_player].values()) == 0:
                     winner = current_player
 
-print("The winner is: " + str(winner))
+print("The winner is player: " + str(winner))
 
 print(scores)
